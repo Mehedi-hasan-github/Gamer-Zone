@@ -57,5 +57,88 @@ nav {
   color: #3c354f;
   margin-right: 1rem;
 }
-/* ........mobile header............ */
-/* ........tab header............ */
+/* ........mobile headerand tab header............ */
+@media screen and (max-width: 576px) {
+  .icon {
+    height: 100px;
+  }
+
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .links ul {
+    padding-left: 0px;
+    flex-direction: column;
+  }
+  ul li:nth-child(2) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+/* gallery section */
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gallery-image,
+.gallery-content {
+  width: 50%;
+}
+.gallery-image img {
+  width: 100%;
+}
+
+.gallery-content h3 {
+  color: #0b0223;
+  font-size: 48px;
+  margin: 0px;
+}
+
+.gallery-content ul li:nth-child(1) {
+  list-style-image: url("images/play-button-icon-png-18910.png");
+  font-size: 20px;
+}
+.gallery-content ul li:nth-child(2) {
+  list-style-image: url("images/Icon_Download-Install.png");
+  font-size: 20px;
+}
+.gallery-content ul li:nth-child(3) {
+  list-style-image: url("images/icon-users-29.jpg");
+  font-size: 20px;
+}
+
+.gradient-text {
+  background: linear-gradient(180deg, #f948b2, #8758f1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 85px;
+  margin: 0px;
+  font-weight: 800;
+}
+
+.sign-in {
+  border-radius: 48px;
+  background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+  border: none;
+  padding: 21px 40px;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.go-rogue {
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 48px;
+  background: #4ec5f7;
+  border: none;
+}
