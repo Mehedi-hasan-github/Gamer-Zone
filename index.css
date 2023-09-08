@@ -8,7 +8,6 @@ body {
   padding: 0px;
   box-sizing: border-box;
   background-color: #fff;
-  width: 90%;
   font-family: "Poppins", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
@@ -17,6 +16,8 @@ header {
   height: 130px;
 }
 nav {
+  padding: 0px 5%;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -80,6 +81,7 @@ nav {
 
 /* gallery section */
 .gallery {
+  margin: 0px 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -141,4 +143,52 @@ nav {
   border-radius: 48px;
   background: #4ec5f7;
   border: none;
+}
+
+/* .........career section........ */
+.career {
+  margin-top: 100px;
+  padding-left: 5%;
+  box-sizing: border-box;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff42a5;
+}
+
+.career-des {
+  width: 50%;
+  font-size: 15px;
+  padding: 40px 0px;
+}
+.career-des h2 {
+  font-size: 40px;
+}
+.career-img {
+  width: 50%;
+}
+.career-img img {
+  height: 500px;
+}
+
+.career-names {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.careerli-two {
+  text-align: right;
+}
+.career-names li {
+  list-style: none;
+}
+.positions-btn {
+  margin-top: 20px;
+  color: #ff42a5;
+  border: none;
+  border-radius: 40px;
+  font-size: 18px;
+  padding: 21px 40px;
 }
