@@ -300,3 +300,30 @@ nav {
   font-size: 18px;
   padding: 21px 40px;
 }
+
+/* <!-- more games section --> */
+.more-games {
+  margin: 100px 5%;
+}
+.more-games ul {
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.more-games ul div {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 567px) {
+  .more-games {
+    margin: 50px 5%;
+  }
+  .more-games ul {
+    justify-content: space-between;
+  }
+}
