@@ -58,7 +58,7 @@ nav {
   color: #3c354f;
   margin-right: 1rem;
 }
-/* ........mobile headerand tab header............ */
+/* ........mobile header and tab header............ */
 @media screen and (max-width: 576px) {
   .icon {
     height: 100px;
@@ -145,12 +145,120 @@ nav {
   border: none;
 }
 
+/* Online Games Funny Videos */
+.online-games {
+  width: 90%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.online-games h2 {
+  font-size: 48px;
+}
+.games {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.games-img {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 430px;
+}
+.games-img img {
+  width: 100%;
+}
+.games-img p {
+  max-width: 250px;
+}
+.video-img {
+  position: relative;
+}
+
+.in-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* query */
+
+@media screen and (min-width: 1200px) {
+  .in-video {
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media screen and (min-width: 992px) {
+  .in-video {
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media screen and (min-width: 576px) {
+  .in-video {
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.in-video img {
+  width: 25px;
+}
+.in-video p {
+  color: #f948b2;
+  margin-top: 0px;
+}
+
+/* .........instantly play section.......... */
+.play-instantly {
+  position: relative;
+  margin: 0px 5% 100px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.play-content {
+  max-width: 30%;
+  margin-right: 150px;
+  text-align: right;
+}
+.play-content h2 {
+  font-size: 40px;
+}
+@media screen and (max-width: 992px) {
+  .play-content h2 {
+    font-size: 28px;
+  }
+}
+.play-img #main-image {
+  width: 100%;
+}
+.play-img #sub-image {
+  position: absolute;
+  width: 28%;
+  right: 36%;
+  bottom: -80px;
+}
 /* .........career section........ */
 .career {
   margin-top: 100px;
-  padding-left: 5%;
+  padding: 0px 0px 0px 5%;
   box-sizing: border-box;
-  width: 100%;
   color: white;
   display: flex;
   justify-content: space-between;
